@@ -1,2 +1,2 @@
-# UnityML
-Unity Machine Learning project repo.
+# UnityML : Docs
+Documents related to Unity Machine Learning project
