@@ -319,6 +319,7 @@ Deliverables:
 | Code.org | https://code.org/ | 
 | Code.org - Lesson example | https://curriculum.code.org/csf-18/coursed/18/ |
 | Code.org - Unplugged activity | https://studio.code.org/s/coursed-2018/stage/18/puzzle/1 |
+| Git Branching Model | https://nvie.com/posts/a-successful-git-branching-model/? |
 
 # Contacts
 | Email | Role | Description |
