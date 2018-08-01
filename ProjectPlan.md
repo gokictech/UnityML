@@ -22,7 +22,7 @@ AI is being engraved in every aspect of our society with Gartner predicting it a
 
 # Getting Started
 
-## Git
+### Git
 Version control systems allows us to manage source code changes over time. It allows us to keep track of every modification we do to code and/or files. It also has the advantage that if mistakes or bugs are introduced, we can always revert back to an earlier state. We use Git/Github as our version control system and our code repository:
 
 1. Install [Git](https://git-scm.com/downloads)
@@ -35,7 +35,7 @@ A few more optional resources:
 - What is version control and benefits [link](https://www.atlassian.com/git/tutorials/what-is-version-control).
 - Why Git [link](https://www.atlassian.com/git/tutorials/why-git)
 
-## Development Process
+### Development Process
 1. Clone repository, there must be at least two branches master and dev (git clone repo_url)
 2. Change into the dev branch (git checkout dev)
 3. Make a new branch out of dev with branch name format 'user-dev-feature' (git branch -b user-dev-feature)
@@ -46,18 +46,19 @@ A few more optional resources:
 
 This means that all production deployments happen form the master branch. No one has direct permission to master and all development must happen through a new branch out of dev except for hotfixes. Those are allowed to branch out of master, but must be merged back into master *and* dev to avoid conflicts in the future.
 
-## Unity
+### Unity
 1. Install [Unity](https://unity3d.com/get-unity/download)
 2. Explore Unity learning [website](https://unity3d.com/learn)
 3. Go through the begginner [tutorials](https://unity3d.com/learn/tutorials)
 4. Prepare a presentation with all learning.
 
-## Unity ML
+### Unity ML
+Unity ML is majorly based on the theory behind reinforcement learning. As you ramp-up on Unity ML, start ramping-up also in the machine learning topic below.
 - Unity's ML website https://unity3d.com/machine-learning
 - Unity ML Documentation https://github.com/Unity-Technologies/ml-agents/tree/master/docs
 - Blog post introducing Unity ML https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/
 
-## Machine Learning
+### Machine Learning
 Required online courses and resources (in order):
 1. Reinforcement learning introduction https://ai.intel.com/demystifying-deep-reinforcement-learning/
 2. Practical introduction http://www.fast.ai/
@@ -67,6 +68,7 @@ Optional courses and resources:
 - Deep learning https://www.coursera.org/specializations/deep-learning
 - Theory of machine learning [CalTech](https://www.edx.org/course/learning-data-introductory-machine-caltechx-cs1156x-0)
 - Reinforcement learning [Berkley](http://rail.eecs.berkeley.edu/deeprlcourse/)
+- Tutorial on deep reinforcement learning [ICML](https://icml.cc/2016/tutorials/deep_rl_tutorial.pdf)
 
 Setting up your machine to use machine learning with python
 1. Install conda
