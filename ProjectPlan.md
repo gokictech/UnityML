@@ -2,7 +2,7 @@
 Unity Infinity Runner Bootcamp
 
 # Basic Information
-Name: Rafael Bayer  
+Name: Rafael Bayer, Libby Knell
 Leads: Tiago Damasceno, Fernando Sanchez    
 Team: Curriculum Development - Video Game & AI  
 Start Date: 07/02/2018  
@@ -20,15 +20,170 @@ AI is being engraved in every aspect of our society with Gartner predicting it a
 [2] Gartner, https://www.gartner.com/events-na/data-analytics/wp-content/uploads/sites/5/2017/10/Data-and-Analytics-Predictions.pdf  
 [3] Timnit Gebru, https://www.technologyreview.com/s/610192/were-in-a-diversity-crisis-black-in-ais-founder-on-whats-poisoning-the-algorithms-in-our/
 
-# Goals
+# Getting Started
 
-**Priority:** 0  
-**Title:** Setup and get familiar with unity develpment  
-**Goals:** 
-- Setup dev environment with Unity, repository 
-- Get familiar with unitiy development by going through a couple of unity game tutorials.
-- Prepare a markdown document with all the learning on unity development
-- Research online for best practices on untity development: code structure, utilities, ...
+## Git
+Version control systems allows us to manage source code changes over time. It allows us to keep track of every modification we do to code and/or files. It also has the advantage that if mistakes or bugs are introduced, we can always revert back to an earlier state. We use Git/Github as our version control system and our code repository:
+
+1. Install [Git](https://git-scm.com/downloads)
+2. Read [Git documentation](https://git-scm.com/book/en/v2) chapters 1-4 or go through their [online tutorial](http://try.github.com/).
+3. Git [cheat-sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+4. Clone this repository
+5. Review the [branching structure](https://nvie.com/posts/a-successful-git-branching-model/?) we use.
+
+A few more optional resources:
+- What is version control and benefits [link](https://www.atlassian.com/git/tutorials/what-is-version-control).
+- Why Git [link](https://www.atlassian.com/git/tutorials/why-git)
+
+## Development Process
+1. Clone repository, there must be at least two branches master and dev (git clone repo_url)
+2. Change into the dev branch (git checkout dev)
+3. Make a new branch out of dev with branch name format 'user-dev-feature' (git branch -b user-dev-feature)
+4. Make a pull request (PR) to get your code reviewed.
+5. Fix any [merge conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/) if any.
+6. After all comments are addressed,  merge with dev.
+7. When the new features are ready to production (ideally every week) we repeat 3-5 to merge dev into master.
+
+This means that all production deployments happen form the master branch. No one has direct permission to master and all development must happen through a new branch out of dev except for hotfixes. Those are allowed to branch out of master, but must be merged back into master *and* dev to avoid conflicts in the future.
+
+## Unity
+1. Install [Unity](https://unity3d.com/get-unity/download)
+2. Explore Unity learning [website](https://unity3d.com/learn)
+3. Go through the begginner [tutorials](https://unity3d.com/learn/tutorials)
+4. Prepare a presentation with all learning.
+
+## Unity ML
+- Unity's ML website https://unity3d.com/machine-learning
+- Unity ML Documentation https://github.com/Unity-Technologies/ml-agents/tree/master/docs
+- Blog post introducing Unity ML https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/
+
+## Machine Learning
+Required online courses and resources (in order):
+1. Reinforcement learning introduction https://ai.intel.com/demystifying-deep-reinforcement-learning/
+2. Practical introduction http://www.fast.ai/
+3. Theory introduction https://www.coursera.org/learn/machine-learning
+
+Optional courses and resources:
+- Deep learning https://www.coursera.org/specializations/deep-learning
+- Theory of machine learning [CalTech](https://www.edx.org/course/learning-data-introductory-machine-caltechx-cs1156x-0)
+- Reinforcement learning [Berkley](http://rail.eecs.berkeley.edu/deeprlcourse/)
+
+Setting up your machine to use machine learning with python
+1. Install conda
+2. Create a new conda environment for Python 3.6
+3. Install tensorflow for CPU or GPU (if you have any).
+4. Install keras
+5. Install pytorch
+
+# Plan
+
+### Week 1
+Iteration: 1806-1  
+Milestones: Onboarding, Understanding  GOKiC, Understanding Project Requirements.  
+Deliverables:
+- Team introduction
+- GOKiC values understanding
+- Review existing documentation on GOKiC vision, programs, current projects.
+- Setup dev resources: Git, Visual Studio, Visual Code
+- Setup and get familiar with unity game develpment 
+
+### Week 2
+Iteration: 1806-2  
+Milestones: Deep understanding of Unity ML agents and algorithms we can use
+Deliverables:
+- Get familiar with unitiy ML development
+- Update markdown documentation with a list of [example projects](https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/) or [open source projects](https://github.com/UnityTechnologies/MachineLearningRoguelike) to learn Unity ML
+- Setup and run a couple of unity ML project to explore options from the SDK, e.g training with tensorflowsharp vs python, brain types.
+- Update documentation on available unity ML algorithms and how can it be applied to different games.
+- Setup a presentation with mentor and manager to explain the games mechanics.
+- Presentation should also cover fundamentals of Unity ML, how it works.
+- Presentation should also explain how to setup the project
+- Presentation should include a working demo of the example project
+- Presentation should walkthrough the code to explain how all components work.
+
+### Week 3
+Iteration: 1806-3 
+Milestones: Infinity runner prototype for N simultaneous agents.  
+Deliverables:
+- Implementation of an infinity runner in 3D
+- The game should be able to run multiple simltaneuous agents.
+- The game should track the reward each agent is collecting.
+- The game should support at this point human agents and random agents. 
+- Uupdates are sent to the team on how the game is looking to gather early feedback.
+
+### Week 4
+Iteration: 1806-3 
+Milestones: Add support for ML agents with a neuroevolution library implementation.  
+Deliverables:
+- Research summary of multiple open source implementations of neuroevolution librarues that work with Unity.
+- Update markdown documentation to explain the details of the learning algorithm, e.g. genetic algorithms, population, mutation. Here's an easy to follow introduction [library](https://github.com/xviniette/FlappyLearning/blob/gh-pages/Neuroevolution.js) in javascript. 
+- Design, implement and render the concept of 'sensors' in an agent. 
+- Sensors could be for instance the agent's field of vision, it's velocity, distance to ground hole, ... 
+- Integrate the neuroevolution library into ML agents using agent's sensors as input for the neural net.
+- Students should be able to easily code/configured which sensors to use before training.
+- Students should be able to code/configure key components of the neuroevolution algorithm.
+Deliverables if open source library *not* available: 
+- Upadte markdown doc with design of a neuroevolution library to train ML agents. 
+- Implementation of the neuroevolution algorithm in a public GOKiC repository.
+- The library should be self-contained and test automation must be added
+- The library should contain documentation on public interfaces
+- The library should contain instructions or a single-click script to run all tests.
+- The library should allow a user to inspect or step into the algorithm at important stages to allow for visualizations.
+
+### Week 5 - Midpoint Checkpoint
+Iteration: 1807-2  
+Milestones: Guided tutorial in markdown  
+Deliverables:
+- Tutorial includes a pe-requisites section/steps, e.g. downloading unity, SDK, git. Estimate the time to finish.
+- Tutorial clearly states the concepts the students will learn.
+- Tutorial covers some coding on game mechanics, ML agent training and experimentation with sensors. 
+- Tutorial broken into 10-15 steps introducing new concepts with the following format:
+    - Summary explanation of the new concept
+    - Explanation on how to proceed
+    - Code with placeholders
+    - Clear goals 
+    - Run test or write the expected results
+    - Images explaining step
+    - [not for student] Difficulty estimate: easy, medium, hard
+    - [not for student] Time estimate to finish the step (see open questions)
+- Tutorial should aim for 3-4 hours (e.g. 15 steps * 15 min = 3:45 hrs)
+- Tutorial should also contain suggestions on what's next for students that finish fast.
+- Prepare a small questionnaire, about 10 questions, to measure concept understanding.  
+
+### Week 6
+Iteration: 1807-3, 1807-4  
+Milestones: Tutorial dry-run with a few CS and non-CS people  
+Deliverables:
+- Select a few set of people to get feedback from: CS/Non-CS background, teachers with experience k-9, ...
+- Users will go through the tutorial with minimal help.
+- Written consent must be collected from all participants to collect extensive feedback/notes of their experience to improve the tutorial.
+- Gather extensive notes in your markdown doc as they work through the tutorial documenting:
+    - Roadblocks: was there something not explicit in the instructions, did we miss a pre-req, ...
+    - Bugs: did the participant hit bugs in our code, what kind of bugs did they introduce as they go.
+    - Time estimates: track the time to complete steps for every participant to evaluate against our estimates.
+    - Difficulty: was a particular step complicated, complex, confusing. First take an observational note, then ask for feedback at the end.
+    - Concept understanding: ask participants to write about what they learned, why it's useful, ask a few 'challenge' questions on how to use the new concepts. Make estensive notes on what concepts were clear vs confusing, exciting vs non-exciting, ...
+    - Feedback: ask for open ended feedback but *only* at the end of the study, e.g. likes, dislikes, difficulty
+
+### Week 7
+Iteration: 1806-2  
+Milestones: Post user study retrospective  
+Deliverables:
+- Retrospective on feedback gathered, adding personal comments to them.
+- Prioritized and actionable plan to improve the tutorial based on feedback. 
+- Plan presentation to mentors/manager to sign-off on it. 
+- Data analysis on accuracy of our time and difficulty estimates.
+- Present why we think estimates were off and proposals on improving accuracy.  
+
+### Week 8
+Iteration: 1806-2  
+Milestones: User study plan implementation and project transition  
+Deliverables:
+- P0 action items from user study are addressed
+- Project transition must ensure at least one person can build/run the project from scratch
+- Documentation of missing steps while building/running the project from scratch.
+
+# Prioritized Goals
 
 **Priority:** 0  
 **Title:** Plan Iterations  
@@ -36,7 +191,14 @@ AI is being engraved in every aspect of our society with Gartner predicting it a
 - Read project goals
 - Ask for clarification on goals
 - Update project goals to better explain the goals
-- Create iteration milestones and add to plan
+
+**Priority:** 0  
+**Title:** Setup and get familiar with unity develpment  
+**Goals:** 
+- Setup dev environment with Unity, Python, Tensorflow, Unity ML Agents SDK, Git Repository, IDE 
+- Get familiar with unitiy development by going through a couple of unity game tutorials.
+- Prepare a markdown document with all the learning on unity development
+- Research online for best practices on untity development: code structure, utilities, ...
 
 **Priority:** 0  
 **Title:** Setup, run your first unity ML project  
@@ -190,114 +352,6 @@ Example:
 - 3rd grader at 15 WPM, 20 lines of code (100 words) = About 7 mins of coding  
 - 3rd grader at 10 WPM, 20 lines of code (100 words) = About 10 mins of coding  
 - We need a buffer, e.g. 5 min of explanation, questions, bugfixing.  
-
-# Plan
-
-### Week 1
-Iteration: 1806-1  
-Milestones: Onboarding, Understanding  GOKiC, Understanding Project Requirements.  
-Deliverables:
-- Team introduction
-- GOKiC values understanding
-- Review existing documentation on GOKiC vision, programs, current projects.
-- Setup dev resources: Git, Visual Studio, Visual Code
-- Setup and get familiar with unity game develpment 
-
-### Week 2
-Iteration: 1806-2  
-Milestones: Deep understanding of Unity ML agents and algorithms we can use
-Deliverables:
-- Get familiar with unitiy ML development
-- Update markdown documentation with a list of [example projects](https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/) or [open source projects](https://github.com/UnityTechnologies/MachineLearningRoguelike) to learn Unity ML
-- Setup and run a couple of unity ML project to explore options from the SDK, e.g training with tensorflowsharp vs python, brain types.
-- Update documentation on available unity ML algorithms and how can it be applied to different games.
-- Setup a presentation with mentor and manager to explain the games mechanics.
-- Presentation should also cover fundamentals of Unity ML, how it works.
-- Presentation should also explain how to setup the project
-- Presentation should include a working demo of the example project
-- Presentation should walkthrough the code to explain how all components work.
-
-### Week 3
-Iteration: 1806-3 
-Milestones: Infinity runner prototype for N simultaneous agents.  
-Deliverables:
-- Implementation of an infinity runner in 3D
-- The game should be able to run multiple simltaneuous agents.
-- The game should track the reward each agent is collecting.
-- The game should support at this point human agents and random agents. 
-- Uupdates are sent to the team on how the game is looking to gather early feedback.
-
-### Week 4
-Iteration: 1806-3 
-Milestones: Add support for ML agents with a neuroevolution library implementation.  
-Deliverables:
-- Research summary of multiple open source implementations of neuroevolution librarues that work with Unity.
-- Update markdown documentation to explain the details of the learning algorithm, e.g. genetic algorithms, population, mutation. Here's an easy to follow introduction [library](https://github.com/xviniette/FlappyLearning/blob/gh-pages/Neuroevolution.js) in javascript. 
-- Design, implement and render the concept of 'sensors' in an agent. 
-- Sensors could be for instance the agent's field of vision, it's velocity, distance to ground hole, ... 
-- Integrate the neuroevolution library into ML agents using agent's sensors as input for the neural net.
-- Students should be able to easily code/configured which sensors to use before training.
-- Students should be able to code/configure key components of the neuroevolution algorithm.
-Deliverables if open source library *not* available: 
-- Upadte markdown doc with design of a neuroevolution library to train ML agents. 
-- Implementation of the neuroevolution algorithm in a public GOKiC repository.
-- The library should be self-contained and test automation must be added
-- The library should contain documentation on public interfaces
-- The library should contain instructions or a single-click script to run all tests.
-- The library should allow a user to inspect or step into the algorithm at important stages to allow for visualizations.
-
-### Week 5 - Midpoint Checkpoint
-Iteration: 1807-2  
-Milestones: Guided tutorial in markdown  
-Deliverables:
-- Tutorial includes a pe-requisites section/steps, e.g. downloading unity, SDK, git. Estimate the time to finish.
-- Tutorial clearly states the concepts the students will learn.
-- Tutorial covers some coding on game mechanics, ML agent training and experimentation with sensors. 
-- Tutorial broken into 10-15 steps introducing new concepts with the following format:
-    - Summary explanation of the new concept
-    - Explanation on how to proceed
-    - Code with placeholders
-    - Clear goals 
-    - Run test or write the expected results
-    - Images explaining step
-    - [not for student] Difficulty estimate: easy, medium, hard
-    - [not for student] Time estimate to finish the step (see open questions)
-- Tutorial should aim for 3-4 hours (e.g. 15 steps * 15 min = 3:45 hrs)
-- Tutorial should also contain suggestions on what's next for students that finish fast.
-- Prepare a small questionnaire, about 10 questions, to measure concept understanding.  
-
-### Week 6
-Iteration: 1807-3, 1807-4  
-Milestones: Tutorial dry-run with a few CS and non-CS people  
-Deliverables:
-- Select a few set of people to get feedback from: CS/Non-CS background, teachers with experience k-9, ...
-- Users will go through the tutorial with minimal help.
-- Written consent must be collected from all participants to collect extensive feedback/notes of their experience to improve the tutorial.
-- Gather extensive notes in your markdown doc as they work through the tutorial documenting:
-    - Roadblocks: was there something not explicit in the instructions, did we miss a pre-req, ...
-    - Bugs: did the participant hit bugs in our code, what kind of bugs did they introduce as they go.
-    - Time estimates: track the time to complete steps for every participant to evaluate against our estimates.
-    - Difficulty: was a particular step complicated, complex, confusing. First take an observational note, then ask for feedback at the end.
-    - Concept understanding: ask participants to write about what they learned, why it's useful, ask a few 'challenge' questions on how to use the new concepts. Make estensive notes on what concepts were clear vs confusing, exciting vs non-exciting, ...
-    - Feedback: ask for open ended feedback but *only* at the end of the study, e.g. likes, dislikes, difficulty
-
-### Week 7
-Iteration: 1806-2  
-Milestones: Post user study retrospective  
-Deliverables:
-- Retrospective on feedback gathered, adding personal comments to them.
-- Prioritized and actionable plan to improve the tutorial based on feedback. 
-- Plan presentation to mentors/manager to sign-off on it. 
-- Data analysis on accuracy of our time and difficulty estimates.
-- Present why we think estimates were off and proposals on improving accuracy.  
-
-### Week 8
-Iteration: 1806-2  
-Milestones: User study plan implementation and project transition  
-Deliverables:
-- P0 action items from user study are addressed
-- Project transition must ensure at least one person can build/run the project from scratch
-- Documentation of missing steps while building/running the project from scratch.
 
 # Resources
 
