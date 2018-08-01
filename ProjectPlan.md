@@ -2,7 +2,7 @@
 Unity Infinity Runner Bootcamp
 
 # Basic Information
-Name: Rafael Bayer, Libby Knell
+Name: Rafael Bayer, Libby Knell  
 Leads: Tiago Damasceno, Fernando Sanchez    
 Team: Curriculum Development - Video Game & AI  
 Start Date: 07/02/2018  
