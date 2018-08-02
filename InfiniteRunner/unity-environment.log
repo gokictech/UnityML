@@ -1,0 +1,1850 @@
+8/2/2018 12:12:32 AM
+ 
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.4944917
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.459954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.459954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5032861
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.4945918
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.4837003
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5038387
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5084344
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5023704
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.508364
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.459954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.459954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5076739
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.1899543
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.459954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5027218
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5057638
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5071539
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.5053852
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.4931668
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.4978512
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+1 reward added
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:86)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
+Log
+hit obstacle, distance:0.489954
+UnityEngine.Debug:Log(Object)
+RunnerAgent:AgentAction(Single[], String) (at Assets/RunnerAgent.cs:72)
+MLAgents.Agent:AgentStep() (at Assets/ML-Agents/Scripts/Agent.cs:904)
+MLAgents.Academy:EnvironmentStep() (at Assets/ML-Agents/Scripts/Academy.cs:582)
+MLAgents.Academy:FixedUpdate() (at Assets/ML-Agents/Scripts/Academy.cs:604)
+
