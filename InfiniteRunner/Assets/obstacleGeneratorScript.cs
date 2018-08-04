@@ -8,12 +8,22 @@ public class obstacleGeneratorScript : MonoBehaviour
     public float spawnDelay = 3f;
     private float lastSpawn;
 
+    public GenerationMode mode;
     public List<GameObject> spawnedObstacles;
+
+    public enum GenerationMode
+    {
+        random,
+        seeded
+    };
 
     void Start()
     {
+        setGenerationMode();
         lastSpawn = Time.time;
         spawnedObstacles = new List<GameObject>();
+
+        
     }
 
     void FixedUpdate()
@@ -38,6 +48,21 @@ public class obstacleGeneratorScript : MonoBehaviour
             Destroy(obs);
         }
         spawnedObstacles.Clear();
+        setGenerationMode();
+
+    }
+
+    //doesn't work yet, try reseeding every time an obstacle is spawned using an incremental seed
+    private void setGenerationMode()
+    {
+        if(mode == GenerationMode.random)
+        {
+            Random.InitState(System.DateTime.Now.Millisecond);//random everytime, uses current time as a seed
+        }
+        else if(mode == GenerationMode.seeded)
+        {
+            Random.InitState(1);//Same obstacles everytime
+        }
     }
 
 }
