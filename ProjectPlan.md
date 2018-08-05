@@ -20,6 +20,10 @@ AI is being engraved in every aspect of our society with Gartner predicting it a
 [2] Gartner, https://www.gartner.com/events-na/data-analytics/wp-content/uploads/sites/5/2017/10/Data-and-Analytics-Predictions.pdf  
 [3] Timnit Gebru, https://www.technologyreview.com/s/610192/were-in-a-diversity-crisis-black-in-ais-founder-on-whats-poisoning-the-algorithms-in-our/
 
+# Curriculum Specification
+Expected length: 3-5 hours
+Demographics: 3rd-6th grade | majority from east-africa and latinamerica | low-end spec laptops
+
 # Getting Started
 
 ### Git
