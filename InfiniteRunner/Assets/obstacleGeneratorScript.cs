@@ -4,19 +4,26 @@ using UnityEngine;
 
 public class obstacleGeneratorScript : MonoBehaviour
 {
+    //Refrence to obstacle prefab
     public GameObject obstacle;
+    //delay in seconds between each obstacle
     public float spawnDelay = 3f;
-    private float lastSpawn;
-
+    //WIP, enum to determine how the obstacles will be randomly spawned
     public GenerationMode mode;
+    //list of currently spawned obstacles so they can be deleted on reset
     public List<GameObject> spawnedObstacles;
 
+    private float lastSpawn;
+
+    //WIP:  random: different for every agent
+    //      seeded: same for every agent
     public enum GenerationMode
     {
         random,
         seeded
     };
 
+    //called when the play button is pressed
     void Start()
     {
         setGenerationMode();
@@ -26,8 +33,10 @@ public class obstacleGeneratorScript : MonoBehaviour
         
     }
 
+    //called every physics update
     void FixedUpdate()
     {
+        //spawns the obstacle after delay
         if(Time.time > lastSpawn + spawnDelay)
         {
             lastSpawn = Time.time;
@@ -40,6 +49,7 @@ public class obstacleGeneratorScript : MonoBehaviour
         }
     }
 
+    //deletes all obstacles that have already been spawned, resets delay
     public void resetObstacles()
     {
         lastSpawn = Time.time;
