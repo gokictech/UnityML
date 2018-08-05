@@ -86,7 +86,7 @@ Deliverables:
 - Team introduction
 - GOKiC values understanding
 - Review existing documentation on GOKiC vision, programs, current projects.
-- Setup dev resources: Git, Visual Studio, Visual Code
+- Follwup get started section
 - Setup and get familiar with unity game develpment 
 
 ### Week 2
