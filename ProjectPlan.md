@@ -91,7 +91,7 @@ Deliverables:
 
 ### Week 2
 Iteration: 1806-2  
-Milestones: Deep understanding of Unity ML agents and algorithms we can use
+Milestones: Deep understanding of Unity ML agents and algorithms we can use  
 Deliverables:
 - Get familiar with unitiy ML development
 - Update markdown documentation with a list of [example projects](https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/) or [open source projects](https://github.com/UnityTechnologies/MachineLearningRoguelike) to learn Unity ML
@@ -104,7 +104,7 @@ Deliverables:
 - Presentation should walkthrough the code to explain how all components work.
 
 ### Week 3
-Iteration: 1806-3 
+Iteration: 1806-3  
 Milestones: Infinity runner prototype for N simultaneous agents.  
 Deliverables:
 - Implementation of an infinity runner in 3D
@@ -114,7 +114,7 @@ Deliverables:
 - Uupdates are sent to the team on how the game is looking to gather early feedback.
 
 ### Week 4
-Iteration: 1806-3 
+Iteration: 1806-3  
 Milestones: Add support for ML agents with a neuroevolution library implementation.  
 Deliverables:
 - Research summary of multiple open source implementations of neuroevolution librarues that work with Unity.
