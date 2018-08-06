@@ -61,6 +61,8 @@ Unity ML is majorly based on the theory behind reinforcement learning. As you ra
 - Unity's ML website https://unity3d.com/machine-learning
 - Unity ML Documentation https://github.com/Unity-Technologies/ml-agents/tree/master/docs
 - Blog post introducing Unity ML https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/
+- Unity ML Setup https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Basic-Guide.md
+- Enviornment Setup https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Create-New.md
 
 ### Machine Learning
 Required online courses and resources (in order):
