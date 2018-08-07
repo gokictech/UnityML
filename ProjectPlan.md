@@ -20,6 +20,10 @@ AI is being engraved in every aspect of our society with Gartner predicting it a
 [2] Gartner, https://www.gartner.com/events-na/data-analytics/wp-content/uploads/sites/5/2017/10/Data-and-Analytics-Predictions.pdf  
 [3] Timnit Gebru, https://www.technologyreview.com/s/610192/were-in-a-diversity-crisis-black-in-ais-founder-on-whats-poisoning-the-algorithms-in-our/
 
+# Curriculum Specification
+Expected length: 3-5 hours
+Demographics: 3rd-6th grade | majority from east-africa and latinamerica | low-end spec laptops
+
 # Getting Started
 
 ### Git
@@ -57,6 +61,8 @@ Unity ML is majorly based on the theory behind reinforcement learning. As you ra
 - Unity's ML website https://unity3d.com/machine-learning
 - Unity ML Documentation https://github.com/Unity-Technologies/ml-agents/tree/master/docs
 - Blog post introducing Unity ML https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/
+- Unity ML Setup https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Basic-Guide.md
+- Enviornment Setup https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Create-New.md
 
 ### Machine Learning
 Required online courses and resources (in order):
@@ -80,18 +86,18 @@ Setting up your machine to use machine learning with python
 # Plan
 
 ### Week 1
-Iteration: 1806-1  
+Iteration: 1807-1  
 Milestones: Onboarding, Understanding  GOKiC, Understanding Project Requirements.  
 Deliverables:
 - Team introduction
 - GOKiC values understanding
 - Review existing documentation on GOKiC vision, programs, current projects.
-- Setup dev resources: Git, Visual Studio, Visual Code
+- Follwup get started section
 - Setup and get familiar with unity game develpment 
 
 ### Week 2
-Iteration: 1806-2  
-Milestones: Deep understanding of Unity ML agents and algorithms we can use
+Iteration: 1807-2  
+Milestones: Deep understanding of Unity ML agents and algorithms we can use  
 Deliverables:
 - Get familiar with unitiy ML development
 - Update markdown documentation with a list of [example projects](https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/) or [open source projects](https://github.com/UnityTechnologies/MachineLearningRoguelike) to learn Unity ML
@@ -104,7 +110,7 @@ Deliverables:
 - Presentation should walkthrough the code to explain how all components work.
 
 ### Week 3
-Iteration: 1806-3 
+Iteration: 1807-3  
 Milestones: Infinity runner prototype for N simultaneous agents.  
 Deliverables:
 - Implementation of an infinity runner in 3D
@@ -114,7 +120,7 @@ Deliverables:
 - Uupdates are sent to the team on how the game is looking to gather early feedback.
 
 ### Week 4
-Iteration: 1806-3 
+Iteration: 1807-4  
 Milestones: Add support for ML agents with a neuroevolution library implementation.  
 Deliverables:
 - Research summary of multiple open source implementations of neuroevolution librarues that work with Unity.
@@ -133,7 +139,7 @@ Deliverables if open source library *not* available:
 - The library should allow a user to inspect or step into the algorithm at important stages to allow for visualizations.
 
 ### Week 5 - Midpoint Checkpoint
-Iteration: 1807-2  
+Iteration: 1808-1  
 Milestones: Guided tutorial in markdown  
 Deliverables:
 - Tutorial includes a pe-requisites section/steps, e.g. downloading unity, SDK, git. Estimate the time to finish.
@@ -152,8 +158,8 @@ Deliverables:
 - Tutorial should also contain suggestions on what's next for students that finish fast.
 - Prepare a small questionnaire, about 10 questions, to measure concept understanding.  
 
-### Week 6
-Iteration: 1807-3, 1807-4  
+### Week 6 & 7
+Iteration: 1808-2, 1808-3  
 Milestones: Tutorial dry-run with a few CS and non-CS people  
 Deliverables:
 - Select a few set of people to get feedback from: CS/Non-CS background, teachers with experience k-9, ...
@@ -167,8 +173,8 @@ Deliverables:
     - Concept understanding: ask participants to write about what they learned, why it's useful, ask a few 'challenge' questions on how to use the new concepts. Make estensive notes on what concepts were clear vs confusing, exciting vs non-exciting, ...
     - Feedback: ask for open ended feedback but *only* at the end of the study, e.g. likes, dislikes, difficulty
 
-### Week 7
-Iteration: 1806-2  
+### Week 8
+Iteration: 1808-4  
 Milestones: Post user study retrospective  
 Deliverables:
 - Retrospective on feedback gathered, adding personal comments to them.
@@ -177,8 +183,8 @@ Deliverables:
 - Data analysis on accuracy of our time and difficulty estimates.
 - Present why we think estimates were off and proposals on improving accuracy.  
 
-### Week 8
-Iteration: 1806-2  
+### Week 9
+Iteration: 1809-1  
 Milestones: User study plan implementation and project transition  
 Deliverables:
 - P0 action items from user study are addressed
