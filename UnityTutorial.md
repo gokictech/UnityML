@@ -18,7 +18,7 @@ of Unity, and explains their relation to our UnityML project.
 ### 1. What is Unity?
 
 Unity is a 3D game engine that provides framework and features to allow developers to
-quickly and efficiently create games. Unity takes care of things that happen behind the scenes
+Quickly and efficiently create games. Unity takes care of things that happen behind the scenes
 like physics, rendering, editing, and exporting so that we can focus on implementing features.
 
 Unity also contains many prebuilt structures we can use without having to create ourselves, for example,
@@ -48,14 +48,14 @@ It is controlled by our "main camera", a <b>GameObject</b> in our scene. To chan
 the camera in the scene view, or control it with a script later on. 
 
 - Along the middle of the editor we have the hierarchy, this is a list of all the GameObjects currently in our scene. 
-We can create new objects in our scene by interacting with this menu. We can also select objects in ther heirarchy
-by clicking on them to manipulate them in the <b>Inspector</b> window on the far right. 
+We can create new objects in our scene by interacting with this menu. We can also select objects in there hierarchy
+By clicking on them to manipulate them in the <b>Inspector</b> window on the far right. 
 
 - On the far right we have the inspector window, this allows us to view and manipulate selected objects and their components.
-To open an object in the inspector we can click on it in the heirarchy, or in the asset window.
+To open an object in the inspector we can click on it in the hierarchy, or in the asset window.
 
-- Between the inspector and the heirarchy we have the asset window. This allows use to see a list of resources we can use in our game.
-This includes items like classes and scripts, textures, librarys, prefabs, and other items we will use in our game. 
+- Between the inspector and the hierarchy we have the asset window. This allows use to see a list of resources we can use in our game.
+This includes items like classes and scripts, textures, libraries, prefabs, and other items we will use in our game. 
 
 
 ### 3. Hierarchy
@@ -114,16 +114,16 @@ has already been written for us, as all GameObjects in Unity extend the "Monobeh
 ![alt text](https://i.imgur.com/KMrqFiq.png)
 
 Here we see that two methods have already been created in our class, Start() and Update(). They should already have comments
-over them explaing that they do.
+over them explaining that they do.
 - Start() is called once, when the object is created. (When you press play, or if the object is created during runtime)
 - Update() is called every frame, about 60 times per second. 
 
 We are going to write some code here to allow the player to make the sphere "jump" when we press a button. 
-First we need a refrence to the Physics component of the GameObject, the Rigidbody we added earlier. 
+First we need a reference to the Physics component of the GameObject, the Rigidbody we added earlier. 
 Create a new private variable in the class: <code>private Rigidbody rb;</code>
 
-Next we want to get a refrence to the Rigidbody component once the game starts. Within the Start() method add the following
-code: <code>rb = gameObject.GetComponent<Rigidbody>();</code> to store a refrence to the Rigidbody in the rb variable.
+Next we want to get a reference to the Rigidbody component once the game starts. Within the Start() method add the following
+code: <code>rb = gameObject.GetComponent<Rigidbody>();</code> to store a reference to the Rigidbody in the rb variable.
 This will search the current gameObject for a Rigidbody component and return it if it finds it, otherwise it returns null.
 
 Note: "gameObject" (lowercase g) refers to the GameObject of the object the script is attached to, "GameObject" refers to
@@ -158,7 +158,7 @@ Sphere prefab by dragging the one we made into the asset window.
 ![alt text](https://i.imgur.com/ZwY4Y4a.png)
 
 We should now see it listed with our other assets! Try dragging it back into the hierarchy to create a new instance of our
-Sphere prefab, offset it slighly in the inspector under transform, or use the transform handles in the scene view. 
+Sphere prefab, offset it slightly in the inspector under transform, or use the transform handles in the scene view. 
 
 ![alt text](https://i.imgur.com/p6HdTEm.png)
 
@@ -209,7 +209,7 @@ Do this now.
 
 Your project is now configured and ready to use UnityML. If you see any errors about broken assembly's for either
 android or iOS feel free to ignore them or delete the offending plugins under Assets -> ML-Agents -> plugins. These errors
-are occuring because we did not configure the editor to build for either of those platforms.
+are occurring because we did not configure the editor to build for either of those platforms.
  
 
 
