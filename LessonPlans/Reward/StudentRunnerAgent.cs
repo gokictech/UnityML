@@ -66,21 +66,21 @@ public class RunnerAgent : Agent {
 
 
         Collider[] collisions = Physics.OverlapSphere(transform.position, 0.75f, LayerMask.GetMask("Obstacle"));
-        if(collisions.Length > 0)// 1. What should we do if the agent is touching an obstacle? Put your answer in the question mark and uncomment the line
+        if(collisions.Length > 0)// 1. What should we do if the agent is touching an obstacle? Put your answer under the question marks!
         {
-            //AddReward(?);
+            // ?
             Done();
 
         }
-        else// 2. What should we do if the Agent isn't touch an obstacle? Put your answer in question mark and uncomment the line
+        else// 2. What should we do if the Agent isn't touch an obstacle? Put your answer under the question marks!
         {
-            //AddReward(?);
+            // ?
 
         }
 
-        if (nearby)// 3. What should we do if the agent is close to an obstacle? Put your answer in the question mark and uncomment the line
+        if (nearby)// 3. What should we do if the agent is close to an obstacle? Put your answer under the question marks!
         {
-            //AddReward(?);
+            // ?
         }
 
         nearby = false;
