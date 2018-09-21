@@ -6,15 +6,19 @@ using MLAgents;
 public class RunnerAgent : Agent {
 
     public float speed = 5f;
-    public const float MAX_OBS_DIST = 20F;
+    public const float MAX_OBS_DIST = 10F;
     public ObstacleManager manager;//refrence to obstacle manager
 
     private Vector3 startPos;
     private Rigidbody rb;
     private bool nearby = false;
 
+    private Sensor mySensor;
 
-    void Start () {
+
+    void Start ()
+    {
+        mySensor = gameObject.GetComponent<Sensor>();
         startPos = transform.position;
         rb = gameObject.GetComponent<Rigidbody>();
 	}
@@ -31,25 +35,16 @@ public class RunnerAgent : Agent {
 
     public override void CollectObservations()
     {
-        //left
-        AddVectorObs(distInDir(Vector3.left));
-        //right
-        AddVectorObs(distInDir(Vector3.right));
-        //left left forward
-        AddVectorObs(distInDir(Vector3.forward + Vector3.left + Vector3.left));
-        //left forward
-        AddVectorObs(distInDir(Vector3.left + Vector3.forward));
-        //left forward forward
-        AddVectorObs(distInDir(Vector3.left + Vector3.forward + Vector3.forward));
-        //forward
-        AddVectorObs(distInDir(Vector3.forward));
-        //right forward forward
-        AddVectorObs(distInDir(Vector3.right + Vector3.forward + Vector3.forward));
-        //right forward
-        AddVectorObs(distInDir(Vector3.right + Vector3.forward));
-        //right right forward
-        AddVectorObs(distInDir(Vector3.right + Vector3.right + Vector3.forward));
-        //speed
+
+        //use sensor to get distances
+        List<float> distances = mySensor.getDistancesAtAngles(new float[] { 0f, 18, 36, 54, 72, 90, 108, 126, 144, 162, 180 }, MAX_OBS_DIST);
+        foreach(float d in distances)
+        {
+            AddVectorObs(d / MAX_OBS_DIST);//normalize and add observation
+        }
+
+        
+
         AddVectorObs(rb.velocity.x / speed);
 
     }
@@ -71,7 +66,7 @@ public class RunnerAgent : Agent {
 
         }
 
-
+        //TODO, FIX THIS TO WORK WITH SENSORS
         if(nearby)
         {
             AddReward(-0.01f);
@@ -86,31 +81,5 @@ public class RunnerAgent : Agent {
        
     }
 
-    //shorcut method, gets the distance in a direction up to MAX_OBS_DIST
-    private float distInDir(Vector3 dir)
-    {
-        RaycastHit hit;
-        Physics.Raycast(transform.position, dir, out hit, MAX_OBS_DIST);
-        if(hit.distance > 0 && hit.distance < 2.5f)
-        {
-            nearby = true;
-        }
-
-        return normalizedDistance(hit);
-
-
-    }
-
-    //normalizes raycast hit distance between 0 and 1
-    private float normalizedDistance(RaycastHit hit)
-    {
-        if(hit.collider)
-        {
-            return hit.distance / MAX_OBS_DIST;
-        }
-        else
-        {
-            return 1f;
-        }
-    }
+   
 }
