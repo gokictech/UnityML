@@ -5,7 +5,7 @@ using UnityEngine;
 public class Sensor : MonoBehaviour
 {
 
-    public bool draw = true;//TODO
+    public bool draw = true;//Draw the raycasts (in editor view)
 
     //returns a float List of un-normalized distances from the current positon to the
     //first obstacle in that direction, stopping at maxDist

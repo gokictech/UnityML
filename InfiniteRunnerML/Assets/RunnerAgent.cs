@@ -12,6 +12,7 @@ public class RunnerAgent : Agent {
     private Vector3 startPos;
     private Rigidbody rb;
     private bool nearby = false;
+    public float nearbyDistance = 1.5f;
 
     private Sensor mySensor;
 
@@ -41,6 +42,11 @@ public class RunnerAgent : Agent {
         foreach(float d in distances)
         {
             AddVectorObs(d / MAX_OBS_DIST);//normalize and add observation
+
+            if(d < nearbyDistance)//if we're close to an obstacle
+            {
+                nearby = true;//we use this later for rewards
+            }
         }
 
         
@@ -65,8 +71,8 @@ public class RunnerAgent : Agent {
             AddReward(0.01f);
 
         }
-
-        //TODO, FIX THIS TO WORK WITH SENSORS
+        
+        //if we're getting close to an obstacle
         if(nearby)
         {
             AddReward(-0.01f);
