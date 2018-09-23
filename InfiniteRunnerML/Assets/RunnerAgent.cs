@@ -82,7 +82,7 @@ public class RunnerAgent : Agent {
 
         //used vectorAction to apply force
         Vector3 controlSignal = Vector3.zero;
-        controlSignal.x = vectorAction[0];
+        controlSignal.x = vectorAction[0];//the control signal is the output returned by the neural network
         rb.AddForce(controlSignal * speed);
        
     }

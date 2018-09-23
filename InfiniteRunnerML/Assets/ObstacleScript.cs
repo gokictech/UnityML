@@ -8,7 +8,7 @@ public class ObstacleScript : MonoBehaviour {
 	
     //move towards the end of the lane until it is behind the runner, then destroy
 	void FixedUpdate () {
-        if (transform.position.z < -9)
+        if (transform.position.z < -10)
         {
             Destroy(gameObject);
         }
