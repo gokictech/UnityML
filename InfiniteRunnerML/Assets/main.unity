@@ -164,7 +164,7 @@ MonoBehaviour:
     - 
     vectorActionSpaceType: 1
     vectorObservationSpaceType: 1
-  brainType: 0
+  brainType: 3
   CoreBrains:
   - {fileID: 592932656}
   - {fileID: 1351063498}
