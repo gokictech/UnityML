@@ -22,7 +22,8 @@ namespace GOKiC
 			if(objectsToMove == null)
 				return;
 
-            foreach (Transform obj in objectsToMove)
+            var objs = objectsToMove;
+            foreach (Transform obj in objs)
             {
                 Move(obj);
             }
@@ -41,6 +42,9 @@ namespace GOKiC
 
         public void Move(Transform objectToMove)
         {
+            if(objectToMove == null)
+                return;
+
             objectToMove.Translate(new Vector3(0f, 0f, speed));
         }
     }
