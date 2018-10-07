@@ -5,31 +5,31 @@ using MLAgents;
 
 public class RunnerAgent : Agent {
 
-    public float speed = 5f;
     public const float MAX_OBS_DIST = 10F;
-    public ObstacleManager manager;//refrence to obstacle manager
+
+    //refrence to obstacle manager
+    public ObstacleManager manager;
 
     private Vector3 startPos;
-    private Rigidbody rb;
     private bool nearby = false;
     public float nearbyDistance = 1.5f;
 
     private Sensor mySensor;
+    private RunnerMovement movement;
 
 
     void Start ()
     {
         mySensor = gameObject.GetComponent<Sensor>();
         startPos = transform.position;
-        rb = gameObject.GetComponent<Rigidbody>();
+        //rb = gameObject.GetComponent<Rigidbody>();
+        movement = GetComponent<RunnerMovement>();
 	}
 
     public override void AgentReset()
     {
-        //reset position and velocity as well as obstacles
-        transform.position = startPos;
-        rb.velocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
+        //reset runner's position and velocity as well as obstacles
+        movement.Reset();
         manager.resetObstacles();
         nearby = false;
     }
@@ -49,9 +49,9 @@ public class RunnerAgent : Agent {
             }
         }
 
-        
-
-        AddVectorObs(rb.velocity.x / speed);
+        //AddVectorObs(rb.velocity.x / speed);
+        float velocityObservation = movement.SideWayVelocity() / movement.SideWayMaxVelocity();
+        AddVectorObs(velocityObservation);
 
     }
 
@@ -81,9 +81,19 @@ public class RunnerAgent : Agent {
         nearby = false;
 
         //used vectorAction to apply force
-        Vector3 controlSignal = Vector3.zero;
-        controlSignal.x = vectorAction[0];//the control signal is the output returned by the neural network
-        rb.AddForce(controlSignal * speed);
+        //Vector3 controlSignal = Vector3.zero;
+        //controlSignal.x = vectorAction[0];//the control signal is the output returned by the neural network
+        //rb.AddForce(controlSignal * speed);
+
+
+        if(vectorAction[0] < 0)
+        {
+            movement.MoveLeft();
+        }
+        else if (vectorAction[0] > 0)
+        {
+            movement.MoveRight();
+        }
        
     }
 
