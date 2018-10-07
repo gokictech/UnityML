@@ -450,6 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+  updateListOnStart: 1
 --- !u!1001 &2042675062
 Prefab:
   m_ObjectHideFlags: 0
