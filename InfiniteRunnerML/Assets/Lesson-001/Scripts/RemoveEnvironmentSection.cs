@@ -16,16 +16,19 @@ namespace GOKiC
 
         void OnTriggerEnter(Collider other)
         {
-			Debug.Log("Collided with : " + other.gameObject.name);
-			
 			var section = other.gameObject.GetComponentInParent<Section>();
 
 			if(section)
 			{
-				Debug.Log("Removed section :" + other.transform.parent.gameObject.name);
+				//Debug.Log("Removed section :" + other.transform.parent.gameObject.name);
 				Destroy(other.transform.parent.gameObject);
 				environmentMover.UpdateListOfMoveObjects();
 			}
+            else
+            {
+                //Debug.Log("Removing another section");
+                Destroy(other.gameObject);
+            }
 
         }
     }
