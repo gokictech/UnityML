@@ -18,6 +18,8 @@ namespace GOKiC
 
         public bool startFromZero = true;
 
+        private Transform lastSection;
+
         void Start()
         {
 			CreateInitialSections();
@@ -35,7 +37,10 @@ namespace GOKiC
                     startPosition += offsetPosition;
                 }
 				
-                Instantiate(sectionPrefab, offsetPosition * (i + 1), Quaternion.identity, environment);
+                newSectionTrigger.position += offsetPosition;
+                var go = Instantiate(sectionPrefab, offsetPosition * (i + 1), Quaternion.identity, environment);
+
+                lastSection = go.transform;
             }
 
             var mover = GameObject.FindObjectOfType<EnvironmentMover>();
@@ -55,10 +60,12 @@ namespace GOKiC
         private void SpawnSection()
         {
             Debug.Log("Spawn Section");
-            Vector3 position = newSectionTrigger.position;
-            position.x = 0;
-            position.z = -30;
-            Instantiate(sectionPrefab, position, Quaternion.identity, environment);
+            Vector3 position = lastSection.position;
+            position += offsetPosition;
+            
+            var go = Instantiate(sectionPrefab, position, Quaternion.identity, environment);
+
+            lastSection = go.transform;
 
             environmentMover.UpdateListOfMoveObjects();
         }
