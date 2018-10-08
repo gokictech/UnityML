@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 23094096}
   - component: {fileID: 23094097}
   m_Layer: 0
-  m_Name: EnvironmentSpawner
+  m_Name: SectionSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   offsetPosition: {x: 0, y: 0, z: -31}
   environment: {fileID: 1847983616}
   newSectionTrigger: {fileID: 1107752266}
-  numberToSpawn: 10
+  numberToSpawn: 1
   startFromZero: 0
 --- !u!1 &218811404
 GameObject:
@@ -599,7 +599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107752266}
   m_Layer: 0
-  m_Name: NewSectionTrigger
+  m_Name: NewSectionObserver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -612,7 +612,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1107752265}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 0, z: -16}
+  m_LocalPosition: {x: -10, y: 0, z: -22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1021902388}
