@@ -140,9 +140,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1107752266}
-  - {fileID: 1228869365}
   - {fileID: 681115727}
   - {fileID: 2136972658}
+  - {fileID: 1228869365}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -161,9 +161,8 @@ MonoBehaviour:
     type: 2}
   offsetPosition: {x: 0, y: 0, z: -31}
   environment: {fileID: 1847983616}
-  newSectionTrigger: {fileID: 1107752266}
+  newSectionObserver: {fileID: 1107752266}
   numberToSpawn: 5
-  startFromZero: 0
 --- !u!1 &87879467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,7 +1067,7 @@ Transform:
   - {fileID: 1360037254}
   - {fileID: 1328196909}
   m_Father: {fileID: 23094096}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &681115728
 MonoBehaviour:
@@ -1767,7 +1766,7 @@ Transform:
   m_LocalScale: {x: 10, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 23094096}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!114 &1228869366
 MonoBehaviour:
@@ -2773,7 +2772,7 @@ Transform:
   - {fileID: 698435427}
   - {fileID: 1077257070}
   m_Father: {fileID: 23094096}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2137888830
 GameObject:

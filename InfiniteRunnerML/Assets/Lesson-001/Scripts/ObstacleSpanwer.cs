@@ -40,14 +40,14 @@ namespace GOKiC
             if(spawnTimer <= 0)
             {
                 SpawnObstacle();
-                spawnTimer = spawnFrequencyInSeconds;
+                spawnTimer = spawnFrequencyInSeconds/environment.multiplier;
             }
         }
 
 
         public void SpawnObstacle()
         {
-            Vector3 position = startPositions[Random.RandomRange(0, startPositions.Count - 1)].position;
+            Vector3 position = startPositions[Random.Range(0, startPositions.Count - 1)].position;
             Instantiate(obstaclePrefab, position, Quaternion.identity, environment.gameObject.transform);
             environment.UpdateListOfMoveObjects();
         }

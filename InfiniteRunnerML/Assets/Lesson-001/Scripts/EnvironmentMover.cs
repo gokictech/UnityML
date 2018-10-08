@@ -6,6 +6,7 @@ namespace GOKiC
 {
     public class EnvironmentMover : MonoBehaviour
     {
+        public float multiplier = 1f;
         public float speed = 0.3f;
 		public bool updateListOnStart = false;
         Transform[] objectsToMove;
@@ -45,7 +46,7 @@ namespace GOKiC
             if(objectToMove == null)
                 return;
 
-            objectToMove.Translate(new Vector3(0f, 0f, speed));
+            objectToMove.Translate(new Vector3(0f, 0f, speed*multiplier));
         }
     }
 }

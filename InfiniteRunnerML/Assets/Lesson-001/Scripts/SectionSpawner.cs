@@ -10,7 +10,7 @@ namespace GOKiC
         public Vector3 offsetPosition;
 		public Transform environment;
 
-		public Transform newSectionTrigger;
+		public Transform newSectionObserver;
 
         private EnvironmentMover environmentMover;
 
@@ -26,37 +26,37 @@ namespace GOKiC
 		private void CreateInitialSections()
 		{
 			Vector3 startPosition = Vector3.zero;
-            lastSection = transform;
             for (int i = 0; i < numberToSpawn; i++)
             {
-                SpawnSection();
                 transform.position += offsetPosition;
+                //SpawnSection(transform.position);
+                
+                // this section is added later when we we add the obstacle and trash spawners
+                var go = SpawnSection(transform.position);
+                lastSection = go.transform; 
             }
-
+            
             var mover = GameObject.FindObjectOfType<EnvironmentMover>();
-
             mover.UpdateListOfMoveObjects();
 		}
 
-
         private void Update()
         {
-            if (Physics.CheckSphere(newSectionTrigger.position, 1) == false)
+            if (Physics.CheckSphere(newSectionObserver.position, 1) == false)
             {
-                SpawnSection();
+                var go = SpawnSection(lastSection.position + offsetPosition);
+                lastSection = go.transform;
                 environmentMover.UpdateListOfMoveObjects();
             }
         }
 
-        private void SpawnSection()
+        private GameObject SpawnSection(Vector3 position)
         {
             Debug.Log("Spawn Section");
-            Vector3 position = lastSection.position;
-            position += offsetPosition;
-            
+                        
             var go = Instantiate(sectionPrefab, position, Quaternion.identity, environment);
 
-            lastSection = go.transform;
+            return go;
         }
     }
 }
