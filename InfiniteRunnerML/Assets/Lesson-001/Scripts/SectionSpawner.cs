@@ -15,9 +15,6 @@ namespace GOKiC
         private EnvironmentMover environmentMover;
 
         public int numberToSpawn;
-
-        public bool startFromZero = true;
-
         private Transform lastSection;
 
         void Start()
@@ -29,18 +26,10 @@ namespace GOKiC
 		private void CreateInitialSections()
 		{
 			Vector3 startPosition = Vector3.zero;
+            lastSection = transform;
             for (int i = 0; i < numberToSpawn; i++)
             {
-                startPosition = offsetPosition * (i);
-                if (startFromZero == false)
-                {
-                    startPosition += offsetPosition;
-                }
-				
-                var go = Instantiate(sectionPrefab, offsetPosition * (i + 1), Quaternion.identity, environment);
-
-                lastSection = go.transform;
-                //newSectionTrigger.position += offsetPosition;
+                SpawnSection();
                 transform.position += offsetPosition;
             }
 
@@ -55,6 +44,7 @@ namespace GOKiC
             if (Physics.CheckSphere(newSectionTrigger.position, 1) == false)
             {
                 SpawnSection();
+                environmentMover.UpdateListOfMoveObjects();
             }
         }
 
@@ -67,8 +57,6 @@ namespace GOKiC
             var go = Instantiate(sectionPrefab, position, Quaternion.identity, environment);
 
             lastSection = go.transform;
-
-            environmentMover.UpdateListOfMoveObjects();
         }
     }
 }
