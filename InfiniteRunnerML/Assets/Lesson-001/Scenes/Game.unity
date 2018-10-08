@@ -162,7 +162,7 @@ MonoBehaviour:
   offsetPosition: {x: 0, y: 0, z: -31}
   environment: {fileID: 1847983616}
   newSectionObserver: {fileID: 1107752266}
-  numberToSpawn: 5
+  numberToSpawn: 2
 --- !u!1 &87879467
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +214,7 @@ BoxCollider:
   m_GameObject: {fileID: 87879467}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -311,7 +311,7 @@ BoxCollider:
   m_GameObject: {fileID: 181361266}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 218811407}
   - component: {fileID: 218811406}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: BoatBack (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ BoxCollider:
   m_GameObject: {fileID: 218811404}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -612,7 +612,7 @@ BoxCollider:
   m_GameObject: {fileID: 351518950}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -709,7 +709,7 @@ BoxCollider:
   m_GameObject: {fileID: 409459791}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 419225423}
   - component: {fileID: 419225422}
   m_Layer: 0
-  m_Name: MainPart
+  m_Name: BoatMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,7 +794,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 419225420}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -881,7 +881,7 @@ BoxCollider:
   m_GameObject: {fileID: 446465087}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -989,7 +989,7 @@ BoxCollider:
   m_GameObject: {fileID: 564751733}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1135,7 +1135,7 @@ BoxCollider:
   m_GameObject: {fileID: 695633438}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1232,7 +1232,7 @@ BoxCollider:
   m_GameObject: {fileID: 698435426}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1329,7 +1329,7 @@ BoxCollider:
   m_GameObject: {fileID: 731715221}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1426,7 +1426,7 @@ BoxCollider:
   m_GameObject: {fileID: 791342664}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1661,7 +1661,7 @@ BoxCollider:
   m_GameObject: {fileID: 1077257069}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1729,7 +1729,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1107752265}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 0, z: 0}
+  m_LocalPosition: {x: -10, y: 0, z: -18.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1021902388}
@@ -1843,9 +1843,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1300987169}
+  - component: {fileID: 1300987173}
   - component: {fileID: 1300987172}
   - component: {fileID: 1300987171}
   - component: {fileID: 1300987170}
+  - component: {fileID: 1300987174}
   m_Layer: 0
   m_Name: Boat
   m_TagString: Untagged
@@ -1905,6 +1907,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e59742ec11b7ff49949343f1dcc4213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1300987173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300987168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9bdf129533fa24497b792e834b40ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1300987174
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300987168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.5, z: 1.89}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &1301170193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,7 +1970,7 @@ BoxCollider:
   m_GameObject: {fileID: 1301170193}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2053,7 +2078,7 @@ BoxCollider:
   m_GameObject: {fileID: 1328196908}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2150,7 +2175,7 @@ BoxCollider:
   m_GameObject: {fileID: 1360037253}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2236,7 +2261,7 @@ BoxCollider:
   m_GameObject: {fileID: 1676882733}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2344,7 +2369,7 @@ BoxCollider:
   m_GameObject: {fileID: 1737270053}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2441,7 +2466,7 @@ BoxCollider:
   m_GameObject: {fileID: 1753946086}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2538,7 +2563,7 @@ BoxCollider:
   m_GameObject: {fileID: 1788609563}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2630,6 +2655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1ec87a1e2c4d2446bcfe08fefeb1c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  multiplier: 1
   speed: 0.1
   updateListOnStart: 1
 --- !u!1 &2128904033
@@ -2644,7 +2670,7 @@ GameObject:
   - component: {fileID: 2128904036}
   - component: {fileID: 2128904035}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: BoatBack (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2671,7 +2697,7 @@ BoxCollider:
   m_GameObject: {fileID: 2128904033}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2783,7 +2809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2137888831}
   m_Layer: 0
-  m_Name: Body
+  m_Name: BoatBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
