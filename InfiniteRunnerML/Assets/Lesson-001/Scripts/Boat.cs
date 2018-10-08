@@ -21,8 +21,9 @@ namespace GOKiC
 			Destroy(obstacle.gameObject);
 			isAlive = false;
 
-			GameObject.FindObjectOfType<EnvironmentMover>().multiplier = 0;
-			
+			gameObject.transform.parent.GetComponentInChildren<EnvironmentMover>().multiplier = 0;
+
+			gameObject.GetComponentInParent<GameManager>().ResetGame();
 		}
 		public void HitTrash(Trash trash)
 		{

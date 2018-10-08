@@ -6,7 +6,6 @@ namespace GOKiC
 {
     public class Obstacle : MonoBehaviour
     {
-
 		public void OnCollisionEnter(Collision other)
         {
 			Debug.Log("Hit : " + other.gameObject.name);

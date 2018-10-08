@@ -135,7 +135,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 23094095}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -143,8 +143,8 @@ Transform:
   - {fileID: 681115727}
   - {fileID: 2136972658}
   - {fileID: 1228869365}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 68223952}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &23094097
 MonoBehaviour:
@@ -163,6 +163,50 @@ MonoBehaviour:
   environment: {fileID: 1847983616}
   newSectionObserver: {fileID: 1107752266}
   numberToSpawn: 2
+--- !u!1 &68223950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68223952}
+  - component: {fileID: 68223951}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &68223951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68223950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e226402f5452644badbcac6290371d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetTime: 2
+--- !u!4 &68223952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68223950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1847983616}
+  - {fileID: 23094096}
+  - {fileID: 1300987169}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &87879467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1127,8 @@ MonoBehaviour:
   obstaclePrefab: {fileID: 1569696258767368, guid: 0fd62c2baacd51e4bba9960955b72cf7,
     type: 2}
   spawnFrequencyInSeconds: 3
-  turnOffMeshForStartPositions: 0
+  turnOffMeshForStartPositions: 1
+  environment: {fileID: 1847983617}
 --- !u!1 &695633438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0e6c71479cc924f8a7a536a6058a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  environmentMover: {fileID: 1847983617}
 --- !u!64 &1228869367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1861,13 +1907,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1300987168}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10, y: -0.05, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2137888831}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 68223952}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1300987170
 Rigidbody:
@@ -1918,6 +1964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9bdf129533fa24497b792e834b40ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectedTrash: 0
+  isAlive: 0
 --- !u!65 &1300987174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2636,13 +2684,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1847983615}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1842875527}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 68223952}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1847983617
 MonoBehaviour:
@@ -2655,7 +2703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1ec87a1e2c4d2446bcfe08fefeb1c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1
+  multiplier: 5
   speed: 0.1
   updateListOnStart: 1
 --- !u!1 &2128904033
@@ -2773,7 +2821,8 @@ MonoBehaviour:
   obstaclePrefab: {fileID: 1089603478076642, guid: de5ad8d17ccb01d428036c7a2ac6624d,
     type: 2}
   spawnFrequencyInSeconds: 2.5
-  turnOffMeshForStartPositions: 0
+  turnOffMeshForStartPositions: 1
+  environment: {fileID: 1847983617}
 --- !u!4 &2136972658
 Transform:
   m_ObjectHideFlags: 0

@@ -9,6 +9,8 @@ namespace GOKiC
 		public GameObject obstaclePrefab;
         public float spawnFrequencyInSeconds = 3f;
         public bool turnOffMeshForStartPositions = false;
+
+        [SerializeField]
         private EnvironmentMover environment;
         private List<Transform> startPositions;
         private float spawnTimer;
@@ -28,14 +30,20 @@ namespace GOKiC
                 }
             }
 
-            var env = GameObject.FindObjectOfType<EnvironmentMover>();
-            environment = env;
+            if(environment == null)
+            {
+                var env = GameObject.FindObjectOfType<EnvironmentMover>();
+                environment = env;
+            }
 
             spawnTimer = spawnFrequencyInSeconds;
         }
 
         public void Update()
         {
+            if(environment.multiplier <= 0)
+                return;
+                
             spawnTimer -= Time.deltaTime;
             if(spawnTimer <= 0)
             {

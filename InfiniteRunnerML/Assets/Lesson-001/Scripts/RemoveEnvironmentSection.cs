@@ -6,12 +6,16 @@ namespace GOKiC
 {
     public class RemoveEnvironmentSection : MonoBehaviour
     {
-		EnvironmentMover environmentMover;
+        [SerializeField]
+		private EnvironmentMover environmentMover;
 
         // Use this for initialization
         void Start()
         {
-			environmentMover = GameObject.FindObjectOfType<EnvironmentMover>();
+            if(environmentMover == null)
+            {
+			    environmentMover = GameObject.FindObjectOfType<EnvironmentMover>();
+            }
         }
 
         void OnTriggerEnter(Collider other)

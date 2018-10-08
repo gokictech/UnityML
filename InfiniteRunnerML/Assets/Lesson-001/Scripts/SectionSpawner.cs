@@ -20,10 +20,10 @@ namespace GOKiC
         void Start()
         {
 			CreateInitialSections();
-            environmentMover = GameObject.FindObjectOfType<EnvironmentMover>();
+            environmentMover = gameObject.transform.parent.GetComponentInChildren<EnvironmentMover>();
         }
 
-		private void CreateInitialSections()
+		public void CreateInitialSections()
 		{
 			Vector3 startPosition = Vector3.zero;
             for (int i = 0; i < numberToSpawn; i++)
@@ -35,6 +35,8 @@ namespace GOKiC
                 var go = SpawnSection(transform.position);
                 lastSection = go.transform; 
             }
+
+            transform.position += offsetPosition;
             
             var mover = GameObject.FindObjectOfType<EnvironmentMover>();
             mover.UpdateListOfMoveObjects();
@@ -42,8 +44,16 @@ namespace GOKiC
 
         private void Update()
         {
+            if(environmentMover.multiplier <= 0)
+                return;
+
             if (Physics.CheckSphere(newSectionObserver.position, 1) == false)
             {
+                if(lastSection == null)
+                {
+                    lastSection = transform;
+                }
+
                 var go = SpawnSection(lastSection.position + offsetPosition);
                 lastSection = go.transform;
                 environmentMover.UpdateListOfMoveObjects();
