@@ -40,7 +40,8 @@ namespace GOKiC
                 var go = Instantiate(sectionPrefab, offsetPosition * (i + 1), Quaternion.identity, environment);
 
                 lastSection = go.transform;
-                newSectionTrigger.position += offsetPosition;
+                //newSectionTrigger.position += offsetPosition;
+                transform.position += offsetPosition;
             }
 
             var mover = GameObject.FindObjectOfType<EnvironmentMover>();
