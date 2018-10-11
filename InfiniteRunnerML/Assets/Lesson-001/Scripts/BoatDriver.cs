@@ -11,13 +11,28 @@ namespace GOKiC
 		private Vector3 leftDirection = new Vector3(1,0,0);
 		BoatMovement movement;
 		float horizontal;
+
+		ForwardSensor[] sensors;
 		void Start () {
 			movement = GetComponent<BoatMovement>();
+
+			var _sensors = GetComponentsInChildren<ForwardSensor>();
+			sensors = _sensors;
 		}
 		
 		void Update () 
 		{
 			horizontal = Input.GetAxis("Horizontal");
+			foreach(ForwardSensor s in sensors)
+			{
+				s.Sense();
+			}
+
+		}
+
+		void LateUpdate()
+		{
+
 		}
 
 		void FixedUpdate()
