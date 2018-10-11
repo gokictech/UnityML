@@ -6,7 +6,6 @@ namespace GOKiC
 {
     public class ForwardSensor : BaseSensor
     {
-		private float[] forward = { -90 };
 		private RaycastHit hit;
 		public float Sense()
 		{

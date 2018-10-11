@@ -23,18 +23,13 @@ namespace GOKiC
 		void Update () 
 		{
 			horizontal = Input.GetAxis("Horizontal");
+
 			foreach(ForwardSensor s in sensors)
 			{
 				s.Sense();
 			}
 
 		}
-
-		void LateUpdate()
-		{
-
-		}
-
 		void FixedUpdate()
 		{
 			if(movement == null)

@@ -39,9 +39,11 @@ public class RunnerAgent : Agent {
 
         //use sensor to get distances
         List<float> distances = mySensor.getDistancesAtAngles(new float[] { 0f, 18, 36, 54, 72, 90, 108, 126, 144, 162, 180 }, MAX_OBS_DIST);
+        int countObservations = 0;
         foreach(float d in distances)
         {
             AddVectorObs(d / MAX_OBS_DIST);//normalize and add observation
+            countObservations++;
 
             if(d < nearbyDistance)//if we're close to an obstacle
             {
@@ -52,6 +54,9 @@ public class RunnerAgent : Agent {
         //AddVectorObs(rb.velocity.x / speed);
         float velocityObservation = movement.SideWayVelocity() / movement.SideWayMaxVelocity();
         AddVectorObs(velocityObservation);
+        countObservations++;
+
+        Debug.Log("Observations received: " + countObservations);
 
     }
 

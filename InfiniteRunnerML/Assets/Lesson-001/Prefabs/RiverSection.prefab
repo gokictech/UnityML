@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 4426582553246152}
   - component: {fileID: 33388749705430952}
   - component: {fileID: 23325863728348844}
+  - component: {fileID: 65965809682651972}
   m_Layer: 0
   m_Name: RiverBank_Left
   m_TagString: Untagged
@@ -103,6 +104,7 @@ GameObject:
   - component: {fileID: 4726800756874712}
   - component: {fileID: 33762381228693634}
   - component: {fileID: 23161925817173804}
+  - component: {fileID: 65117490865939946}
   m_Layer: 0
   m_Name: RiverBank_Right
   m_TagString: Untagged
@@ -334,6 +336,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65117490865939946
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996325351335926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8, y: 3, z: 31}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!65 &65450135153797636
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -346,6 +360,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65965809682651972
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457075744286140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8, y: 3, z: 31}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!114 &114462325445807498
 MonoBehaviour:
   m_ObjectHideFlags: 1
