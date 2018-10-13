@@ -17,7 +17,7 @@ namespace GOKiC
 			if(Physics.Raycast(transform.position, transform.forward, out hit, maxDist) == false)
 			{
 				Debug.DrawLine(transform.position, transform.position + transform.forward*maxDist, Color.blue);
-				return -1; // didn't hit anything
+				return 1; // == maxDist / maxDist; // didn't hit anything
 			}
 
 			Debug.DrawLine(transform.position, hit.point, Color.red);

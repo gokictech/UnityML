@@ -13,11 +13,14 @@ namespace GOKiC
 		float horizontal;
 
 		ForwardSensor[] sensors;
+		SensorAngles[] sensorAngles;
 		void Start () {
 			movement = GetComponent<BoatMovement>();
 
 			var _sensors = GetComponentsInChildren<ForwardSensor>();
 			sensors = _sensors;
+
+			sensorAngles = GetComponentsInChildren<SensorAngles>();
 		}
 		
 		void Update () 
@@ -27,6 +30,12 @@ namespace GOKiC
 			foreach(ForwardSensor s in sensors)
 			{
 				s.Sense();
+			}
+
+			if(sensorAngles != null && sensorAngles.Length == 2)
+			{
+				sensorAngles[0].getDistancesAtAngles();
+				sensorAngles[1].getDistancesAtAngles();
 			}
 
 		}

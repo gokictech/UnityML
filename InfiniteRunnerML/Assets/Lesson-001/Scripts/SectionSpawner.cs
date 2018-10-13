@@ -25,6 +25,8 @@ namespace GOKiC
 
 		public void CreateInitialSections()
 		{
+            var mover = GameObject.FindObjectOfType<EnvironmentMover>();
+
 			Vector3 startPosition = Vector3.zero;
             for (int i = 0; i < numberToSpawn; i++)
             {
@@ -38,7 +40,6 @@ namespace GOKiC
 
             transform.position += offsetPosition;
             
-            var mover = GameObject.FindObjectOfType<EnvironmentMover>();
             mover.UpdateListOfMoveObjects();
 		}
 
@@ -62,7 +63,7 @@ namespace GOKiC
 
         private GameObject SpawnSection(Vector3 position)
         {
-            Debug.Log("Spawn Section");
+            //Debug.Log("Spawn Section");
                         
             var go = Instantiate(sectionPrefab, position, Quaternion.identity, environment);
 

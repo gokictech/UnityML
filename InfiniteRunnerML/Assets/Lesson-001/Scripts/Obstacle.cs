@@ -8,13 +8,13 @@ namespace GOKiC
     {
 		public void OnCollisionEnter(Collision other)
         {
-			Debug.Log("Hit : " + other.gameObject.name);
+			//Debug.Log("Obstacle Hit : " + other.gameObject.name);
 
 			Boat boat = other.gameObject.GetComponent<Boat>();
 
 			if(boat != null)
 			{
-				Debug.Log("Hit boat!");
+				//Debug.Log("Hit boat!");
 				boat.HitObstacle(this);
 			}
         }

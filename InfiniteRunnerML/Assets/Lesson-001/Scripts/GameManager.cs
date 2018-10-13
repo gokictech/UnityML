@@ -6,9 +6,13 @@ namespace GOKiC
 {
     public class GameManager : MonoBehaviour
     {
+        public float timeScale = 1;
         public float resetTime = 2f;
+        public bool applyTimeScale = false;
         EnvironmentMover environment;
 		SectionSpawner sectionSpawner;
+
+        private float lastTimeScale;
         void Start()
         {
             environment = GetComponentInChildren<EnvironmentMover>();
@@ -19,6 +23,18 @@ namespace GOKiC
         {
 			Debug.Log("Resetting game");
             StartCoroutine(ResetEnvironment());
+        }
+
+        private void Update()
+        {
+            if(applyTimeScale == false)
+                return;
+                
+            if(lastTimeScale != timeScale)
+            {
+                Time.timeScale = timeScale;
+                lastTimeScale = timeScale;
+            }
         }
 
         private IEnumerator ResetEnvironment()
@@ -50,7 +66,7 @@ namespace GOKiC
 
 			sectionSpawner.CreateInitialSections();
 
-			environment.multiplier = 5;
+			environment.multiplier = environment.GetInitialMultiplier();
         }
     }
 }

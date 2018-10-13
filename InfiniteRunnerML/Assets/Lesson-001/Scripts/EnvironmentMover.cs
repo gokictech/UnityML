@@ -6,16 +6,21 @@ namespace GOKiC
 {
     public class EnvironmentMover : MonoBehaviour
     {
+        
         public float multiplier = 1f;
         public float speed = 0.3f;
 		public bool updateListOnStart = false;
-        Transform[] objectsToMove;
-        int childCount;
+        private Transform[] objectsToMove;
+        private int childCount;
+
+        private float initialMultiplier;
 
         void Start()
         {
 			if(updateListOnStart)
 				UpdateListOfMoveObjects();
+            
+            initialMultiplier = multiplier;
         }
 
         void Update()
@@ -32,6 +37,8 @@ namespace GOKiC
 
         public void UpdateListOfMoveObjects()
         {
+            return;
+            
             childCount = transform.childCount;
 
             objectsToMove = new Transform[childCount];
@@ -43,10 +50,15 @@ namespace GOKiC
 
         public void Move(Transform objectToMove)
         {
-            if(objectToMove == null)
-                return;
+            // if(objectToMove == null)
+            //     return;
 
-            objectToMove.Translate(new Vector3(0f, 0f, speed*multiplier));
+            // objectToMove.Translate(new Vector3(0f, 0f, speed*Time.timeScale));
+        }
+
+        public float GetInitialMultiplier()
+        {
+            return initialMultiplier;
         }
     }
 }
