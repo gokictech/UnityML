@@ -10,6 +10,10 @@ namespace GOKiC
         public Vector3 riverSpeed;
         public bool addVelocityOnStart;
 
+		public Transform endOfRiver;
+
+		private List<Transform> riverObjects;
+
         void Start()
         {
             if (container == null)
@@ -25,7 +29,13 @@ namespace GOKiC
                     Add(obj.gameObject);
                 }
             }
+
         }
+
+		void Update()
+		{
+			RemoveAtEndOfRiver();
+		}
 
         public void Add(GameObject obj)
         {
@@ -45,11 +55,34 @@ namespace GOKiC
             }
 
             SetVelocity(rb);
+
+			if(riverObjects == null)
+			{
+				riverObjects = new List<Transform>();
+			}
+
+			riverObjects.Add(obj.transform);
+
         }
 
         private void SetVelocity(Rigidbody rb)
         {
             rb.velocity = riverSpeed;
         }
+
+		private void RemoveAtEndOfRiver()
+		{
+			int count = riverObjects.Count;
+
+			for(int i = count -1; i >=0 ; i--)
+			{
+				if(riverObjects[i].position.z > endOfRiver.position.z)
+				{
+					Transform t  = riverObjects[i];
+					riverObjects.RemoveAt(i);
+					Destroy(t.gameObject);
+				}
+			}
+		}
     }
 }
