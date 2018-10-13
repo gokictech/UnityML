@@ -2,20 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyRiverEndOfLine : MonoBehaviour {
+namespace My
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public class MyRiverEndOfLine : MonoBehaviour
+    {
 
-	void OnCollisionEnter(Collision other)
-	{
-		Destroy(other.gameObject);
-	}
+        // Use this for initialization
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        void OnCollisionEnter(Collision other)
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }

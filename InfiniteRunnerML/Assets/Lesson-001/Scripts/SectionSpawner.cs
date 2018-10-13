@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GOKiC
+namespace GOKiC.LessonPassOne
 {
     public class SectionSpawner : MonoBehaviour
     {
@@ -28,11 +28,10 @@ namespace GOKiC
             var mover = GameObject.FindObjectOfType<EnvironmentMover>();
 
 			Vector3 startPosition = Vector3.zero;
+            startPosition += offsetPosition;
             for (int i = 0; i < numberToSpawn; i++)
             {
-                transform.position += offsetPosition;
-                //SpawnSection(transform.position);
-                
+                startPosition += offsetPosition;                
                 // this section is added later when we we add the obstacle and trash spawners
                 var go = SpawnSection(transform.position);
                 lastSection = go.transform; 

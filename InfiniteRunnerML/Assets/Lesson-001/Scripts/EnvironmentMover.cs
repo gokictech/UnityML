@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GOKiC
+namespace GOKiC.LessonPassOne
 {
     public class EnvironmentMover : MonoBehaviour
     {
@@ -37,8 +37,6 @@ namespace GOKiC
 
         public void UpdateListOfMoveObjects()
         {
-            return;
-            
             childCount = transform.childCount;
 
             objectsToMove = new Transform[childCount];
@@ -50,10 +48,10 @@ namespace GOKiC
 
         public void Move(Transform objectToMove)
         {
-            // if(objectToMove == null)
-            //     return;
+            if(objectToMove == null)
+                return;
 
-            // objectToMove.Translate(new Vector3(0f, 0f, speed*Time.timeScale));
+            objectToMove.Translate(new Vector3(0f, 0f, speed*Time.timeScale));
         }
 
         public float GetInitialMultiplier()

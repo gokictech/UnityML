@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GOKiC
+namespace GOKiC.LessonPassOne
 {
 	public class SpawnStartPosition : MonoBehaviour
 	{

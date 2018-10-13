@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using MLAgents;
 
-namespace GOKiC
+namespace GOKiC.LessonPassOne
 {
     public class AIBoatDriver : Agent
     {
