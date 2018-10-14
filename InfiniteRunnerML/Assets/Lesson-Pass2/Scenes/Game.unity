@@ -363,12 +363,12 @@ GameObject:
   - component: {fileID: 230859125}
   - component: {fileID: 230859124}
   m_Layer: 0
-  m_Name: Bot
+  m_Name: Boat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &230859123
 Transform:
   m_ObjectHideFlags: 0
@@ -432,8 +432,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f1445dde5a402f49baa6acf010b0a6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boatName: Boat
   initialPosition: {fileID: 1564498051}
   timeAlive: 0
+  trashCollected: 0
 --- !u!4 &307541269 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4787324648890238, guid: 80a07a2956b29434eb9f99ca6618a6a0,
