@@ -11,8 +11,8 @@ public class River : MonoBehaviour
     public void Add(GameObject obj)
     {
         obj.transform.SetParent(container);
-        Rigidbody rb = obj.GetComponent<Rigidbody>();
-        SetVelocity(rb);
+        Rigidbody objRb = obj.GetComponent<Rigidbody>();
+        SetVelocity(objRb);
     }
 
     private void SetVelocity(Rigidbody rb)
