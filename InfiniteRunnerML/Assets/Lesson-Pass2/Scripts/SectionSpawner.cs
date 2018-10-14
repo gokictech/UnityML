@@ -61,7 +61,13 @@ namespace GOKiC
         {
             if (Physics.CheckSphere(sectionObserver.position, 1f) == false)
             {
-                GameObject section = SpawnSection(lastSection.position + offset);
+                Vector3 pos = sectionObserver.position;
+                if(lastSection != null)
+                {
+                    pos = lastSection.position;
+                }
+
+                GameObject section = SpawnSection(pos + offset);
                 lastSection = section.transform;
             }
         }

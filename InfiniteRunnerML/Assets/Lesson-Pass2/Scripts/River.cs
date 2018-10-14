@@ -75,8 +75,8 @@ namespace GOKiC
 			int count = riverObjects.Count;
 
 			for(int i = count -1; i >=0 ; i--)
-			{
-				if(riverObjects[i].position.z > endOfRiverObserver.position.z)
+			{                
+				if(riverObjects[i] != null && riverObjects[i].position.z > endOfRiverObserver.position.z)
 				{
 					Transform t  = riverObjects[i];
 					riverObjects.RemoveAt(i);
