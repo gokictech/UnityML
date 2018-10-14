@@ -45,7 +45,7 @@ It looks really cool! [Click here to see how it looks](resources/img/long-river-
 > The river sections are occupying the same space.  
 > When we run our game, unity is applying physics to it.  
 > Having two physical objects occupying the same space is physically impossible!  
-> So Unity physics calculations is pushing the objects away from each other.  
+> So Unity physics calculation is pushing the objects away from each other.  
 > Which gives us that cool behaviour! :P
 > Alrighty, fix your project and let's go to the next lesson!
 
