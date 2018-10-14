@@ -10,7 +10,7 @@ namespace GOKiC
         public Vector3 riverSpeed;
         public bool addVelocityOnStart;
 
-		public Transform endOfRiver;
+		public Transform endOfRiverObserver;
 
 		private List<Transform> riverObjects;
 
@@ -76,7 +76,7 @@ namespace GOKiC
 
 			for(int i = count -1; i >=0 ; i--)
 			{
-				if(riverObjects[i].position.z > endOfRiver.position.z)
+				if(riverObjects[i].position.z > endOfRiverObserver.position.z)
 				{
 					Transform t  = riverObjects[i];
 					riverObjects.RemoveAt(i);
