@@ -25,23 +25,12 @@ Create a new script called **Boat**
 
 Code Example : [Link](resources/code-example/Boat_example.1.cs)
 
-## Add Points to the Game
-reset points when we hit the River Banks
 
-# Adding Obstacles
-
-## Create Obstacle
-    cube prefab with material
-
-## Create ObstacleSpawner
-    spawns prefab with a given frequency
-    Spawns prefabs to predefined positions
-
-## Create ObstacleSpawner Code
-
-## Destroy Obstacle when boat hits it
-    reset points as well
-
-## 
-
+// todo - everything below here  
+Go back to Unity
+ - Create BoatStartPosition gameobject
+    - No collider, no mesh renderer, same position as the boat
+ - Add Boat script to Boat gameobject
+    - Set initialPosition variable in Boat script to BoatStartPosition GameObject
+---
 [<< Previous Lesson](lesson.9.md) | [Next Lesson >>](lesson.11.md)
