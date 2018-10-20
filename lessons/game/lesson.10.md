@@ -26,11 +26,17 @@ Create a new script called **Boat**
 Code Example : [Link](resources/code-example/Boat_example.1.cs)
 
 
-// todo - everything below here  
-Go back to Unity
- - Create BoatStartPosition gameobject
-    - No collider, no mesh renderer, same position as the boat
- - Add Boat script to Boat gameobject
-    - Set initialPosition variable in Boat script to BoatStartPosition GameObject
+## Go back to Unity and hook up GameObjects to our script
+Create BoatStartPosition GameObject
+ - Create new Empty Object
+ - Name it BoatStartPosition
+ - At the inspector, set initialPosition on Boat to BoatStartPosition
+ - Set BoatStartPosition Transform Position to be the same as the Boat
+
+![alt text](resources/img/create-boat-start-position-gameobject.gif)
+
+When we play our game, we will see that when we hit the sides, the boat is put back at the start position!
+
+![alt text](resources/img/boat-reset-to-start-position.gif)
 ---
 [<< Previous Lesson](lesson.9.md) | [Next Lesson >>](lesson.11.md)

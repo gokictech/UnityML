@@ -4,48 +4,42 @@ using UnityEngine;
 
 public class Boat : MonoBehaviour {
 
-    public string boatName = "Boat";
-	public Transform initialPosition;
-    
-    void Start()
-	{
-		if(initialPosition == null)
-		{
-			Debug.LogError("initialPosition is not set.");
-			return;
-		}
-	}
-	
-    void Update()
-	{
-		timeAlive += Time.deltaTime;
-		SinglePlayer_GameScore.Instance.SetScore(boatName, (int)(timeAlive * (trashCollected == 0 ? 1 :trashCollected)));
-	}
-	
+    public Transform initialPosition;
+
+	public float timeAlive;
+	public int trashCollected;
+
     void OnCollisionEnter(Collision other)
 	{
-		if(other.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
+		if(other.gameObject.tag == "Rock")
 		{
-			Debug.Log("hit an obstacle");
+			Debug.Log("hit a rock");
 			Destroy(other.gameObject);
 			Reset();
 			return;
 		}
-		if(other.gameObject.layer == LayerMask.NameToLayer("Trash"))
+
+		if(other.gameObject.tag == "Trash")
 		{
-			Debug.Log("hit trash");
+			Debug.Log("collected trash");
 			Destroy(other.gameObject);
 			trashCollected++;
 			return;
 		}
+
 		Debug.Log("Collided with : " + other.gameObject.name);
 		Reset();
 	}
-	
-    private void Reset()
+
+	private void Update()
 	{
-		transform.position = initialPosition.position;
-		timeAlive = 0f;
+		timeAlive += Time.deltaTime;
+	}
+	
+    public void Reset()
+	{
+		timeAlive = 0;
 		trashCollected = 0;
+		transform.position = initialPosition.position;
 	}
 }
