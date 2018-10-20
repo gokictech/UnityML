@@ -5,40 +5,26 @@ using UnityEngine.UI;
 
 public class SinglePlayer_GameScore : MonoBehaviour 
 {
-	public static SinglePlayer_GameScore Instance
-	{
-		get 
-		{
-
-			if(_instance == null)
-			{
-				GameObject tempInstance = new GameObject();
-
-				_instance = tempInstance.AddComponent<SinglePlayer_GameScore>();
-			}
-
-			return _instance;
-		}
-	}
 	public Text currentScoreText;
 	public Text maxScoreText;
 
-	private static SinglePlayer_GameScore _instance;
 	private int maxScore;
 
-	void Awake () 
+	/*
+	private Boat singlePlayerBoat;
+	private void Update()
 	{
-		if(_instance != null)
+		if(singlePlayerBoat == null)
 		{
-			Destroy(this);
-			return;
+			singlePlayerBoat = GameObject.FindObjectOfType<Boat>();
 		}
-
-		_instance = this;
-		currentScoreText = gameObject.transform.Find("CURRENT_SCORE").GetComponent<Text>();
-		maxScoreText = gameObject.transform.Find("MAX_SCORE").GetComponent<Text>();
+		else
+		{
+			SetScore(singlePlayerBoat.name, (int)((singlePlayerBoat.trashCollected+1)*singlePlayerBoat.timeAlive));
+		}
 	}
-
+	*/
+	
 	public void SetScore(string name, int score)
 	{
 		currentScoreText.text = name + " : " + score;
