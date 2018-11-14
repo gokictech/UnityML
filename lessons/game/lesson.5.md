@@ -127,9 +127,9 @@ Create new Empty GameObject
 Set River's variable "*container*" in the inspector to be "RiverContainer"  
 ![Create River Container](resources/img/set-river-container.gif)  
 
-Set other River settings:  
- -  "*riverSpeed*" on the inspector to "*0, 0, 10*"
- - "*Add Velocity On Start*" to "*true*"  
+Set other River settings in the Inspector:  
+ - "*riverSpeed*" on the inspector to "*0, 0, 10*"
+ - Set the checkbox for "*Add Velocity On Start*" (when checked that means it is "*true*") 
   
 ![Create River Container](resources/img/river-settings-one.JPG)
 
@@ -148,8 +148,6 @@ The error shown on the console says that there is no **Rigidbody** attached to t
 Let's look at it
  - Click on our Water game object
  - Look at the Inspector Panel
-
-water-components-no-rigidbody.jpg
 
 Here are the **components** we have in our Water *GameObject*:
  1.  Transform
