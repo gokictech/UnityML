@@ -8,11 +8,10 @@ Open Unity (or UnityHub) and create a new Project.
 ![Creating your project](resources/img/create-project.gif)
 
 Once the project loads - it should look like this this:  
-![Blank Project](resources/img/project-blank.jpg)
+![Blank Project](resources/img/project-blank.JPG)
 
 You can rearrenge the windows to however you prefer.  
-I like to arrange them in the following format:
-
+I like to arrange them in the following format:  
 - Scene and Game panels side by side
 - Console panel under both Scene and Game Panels
 - Hierarchy Panel above the Project Panel
