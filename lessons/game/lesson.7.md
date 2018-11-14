@@ -25,7 +25,7 @@ Just make sure that:
 > You can create more materials for those new body parts
 
 Here is what I did:  
-![alt text](resources/img/my-boat-ss-01.jpg)
+![alt text](resources/img/my-boat-ss-01.JPG)
 
 ## Making our Boat move  
 We need to add 3 components to our boat:  

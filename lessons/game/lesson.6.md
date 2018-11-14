@@ -38,7 +38,7 @@ This is how my river looks like:
 ![alt text](resources/img/long-river-moving-forward.gif)
 
 What happens if you put one object inside of anoter?  
-For example, instead of the offset being -31 on Z - try incrementing it by -20  
+For example, instead of the offset being -31 on Z, try incrementing it by -20  
 It looks really cool! [Click here to see how it looks](resources/img/long-river-crashing.gif)
 
 > **Why does this happen?**  
