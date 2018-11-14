@@ -49,4 +49,5 @@ It looks really cool! [Click here to see how it looks](resources/img/long-river-
 > Which gives us that cool behaviour! :P
 > Alrighty, fix your project and let's go to the next lesson!
 
+---
 [<< Previous Lesson](lesson.5.md) | [Next Lesson >>](lesson.7.md)

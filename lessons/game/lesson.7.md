@@ -98,4 +98,5 @@ More importantly, the river ends!
 How can we automatically create new sections?  
 Let's do this next!
 
+---
 [<< Previous Lesson](lesson.6.md) | [Next Lesson >>](lesson.8.md)

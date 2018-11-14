@@ -38,7 +38,7 @@ Here are the settings we used:
 
 ![WaterMaterial Settings](resources/img/water-material-settings.JPG)
 
-This is how we change those settings:
+This is how we change those settings:  
 ![Changing the WaterMaterial Settings](resources/img/water-material-settings.gif)
 
 ## Add the WaterMaterial to our Water GameObject
@@ -64,4 +64,5 @@ Look at the asterisk ("*") next to the scene name in the Hierarchy Panel
  - With changes not saved:  
 ![Setting Water Material](resources/img/scene-unsaved-changes.jpg)
 
+---
 [<< Previous Lesson](lesson.3.md) | [Next Lesson >>](lesson.5.md)

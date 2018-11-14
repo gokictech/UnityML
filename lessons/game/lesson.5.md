@@ -191,7 +191,7 @@ Do the same thing for the RiverBank Left and RiverBank Right
 **Let's run our game again!**  
 Any other errors? No? yeah!
 
-...but our GameObjects are failing...  
+...but our GameObjects are falling...  
 ...we don't want that...  
 This is happening because Unity is applying gravity to our GameObjects via the Rigidbody component.  
 Let's change that by setting the "UseGravity" in Rigidbody equal to false.  
@@ -212,4 +212,5 @@ If it is not
  - don't worry - go back to the previous steps and see if you missed something. 
  - I am sure you can figure this out
 
+---
 [<< Previous Lesson](lesson.4.md) | [Next Lesson >>](lesson.6.md)
