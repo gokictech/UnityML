@@ -36,7 +36,7 @@ Here are the settings we used:
  - Smoothness: 0  
  - Albedo color: 0066D1  
 
-![WaterMaterial Settings](resources/img/water-material-settings.jpg)
+![WaterMaterial Settings](resources/img/water-material-settings.JPG)
 
 This is how we change those settings:
 ![Changing the WaterMaterial Settings](resources/img/water-material-settings.gif)
