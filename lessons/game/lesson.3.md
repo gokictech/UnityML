@@ -1,11 +1,13 @@
 # Create the Environemnt
-## Create a new Scene
+## Create folder to save game Scene
 Create a Scenes folder if you don't have Scenes folder (Assets > Scenes)
 - Right click the Assets Folder > Create > Folder
 - Name the folder "Scenes"
 
-If you already have a "Scene" folder, delete the "SampleScene" in it
+If you already have a "Scene" folder
+- Delete the "SampleScene" under that folder
 
+## Create a new Scene
 Create a new scene
 - Right click the Scenes folder > Create > Scene
 - Name it "Game"
