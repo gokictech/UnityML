@@ -5,6 +5,7 @@ The first step is to create our project.
 If you don't have Unity installed - refer to these instruction : [Installing Unity](https:www.unity.com)
 
 Open Unity (or UnityHub) and create a new Project.
+- Make sure the project is set to 3D
 ![Creating your project](resources/img/create-project.gif)
 
 Once the project loads - it should look like this this:  
