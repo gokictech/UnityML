@@ -18,10 +18,10 @@ If you look closely, in the Scene Panel
 You can see some thin green lines around of our objects.  
 That is the BoxCollider - the area where collision with other colliders will happen
 
-The River Banks
+The River Banks  
 ![alt text](resources/img/collider-river-bank-green-lines.jpg)
 
-The Boat
+The Boat  
 ![alt text](resources/img/collider-river-boat-green-lines.jpg)
 
 ## Play the game and try hitting the sides
@@ -36,7 +36,7 @@ That is Awesome!!!
 > So when the Boat tries to push the river, it is able to to.
 
 Let's increase the mass of our river sections and see if our boat can still push the river around
- - Increaset Section's rigidbody mass to: 100000  
+ - Increase the Section's rigidbody mass to: 100000  
   
 ![alt text](resources/img/river-section-rigidbody-mass.jpg)
 
