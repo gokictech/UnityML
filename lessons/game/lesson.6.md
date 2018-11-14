@@ -28,9 +28,9 @@ Now, it is much easier to make our river longer.
 On the Section GameObject
  - Right Click > Duplicate
 
-A new GameObject named "Section (1) should have appeared".
-Set the Transform values to:
-![alt text](resources/img/section-first-duplication.jpg)
+A new GameObject named "Section (1) should have appeared".  
+Set the Transform values to:  
+![alt text](resources/img/section-first-duplication.JPG)
 
 Duplicate a few more and keep adding negative 31 to the Transform's Z value.    
 I added another 3 sections!  
