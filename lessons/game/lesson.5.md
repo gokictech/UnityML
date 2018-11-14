@@ -131,7 +131,7 @@ Set other River settings:
  -  "*riverSpeed*" on the inspector to "*0, 0, 10*"
  - "*Add Velocity On Start*" to "*true*"  
   
-![Create River Container](resources/img/river-settings-one.jpg)
+![Create River Container](resources/img/river-settings-one.JPG)
 
 Make **RiverBank (left and Right)** and **Water** GameObjects as children of *RiverContainer*  
 
