@@ -1,7 +1,8 @@
 # Importing Lesson Assets
 Before we start building our game, Let't import some assets that we prepared for the lesson.
 
-Download the package from here [Lesson Packages](https://www.unity.com)
+Download the package from here [Lesson Package](https://github.com/gokictech/UnityML/blob/lesson-review/lessons/game/resources/unity-packages/river-boat-lesson-assets.unitypackage)
+- Right click "river-boat-lesson-assets.unitypackage" and save file in your machine
 
 Once downloaded, go to your Unity project and import the package
 
