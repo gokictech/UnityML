@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class BoatDriver : MonoBehaviour
 {
-	public float speed = 5f;
-	private float horizontalInput;
-	private BoatMovement movement;
+  public float speed = 5f;
+  private float horizontalInput;
+  private BoatMovement movement;
     
   void Start()
   {
-		movement = GetComponent<BoatMovement>();
+      movement = GetComponent<BoatMovement>();
   }
     
   private void Update()
   {
-		horizontalInput = Input.GetAxis("Horizontal");
+      horizontalInput = Input.GetAxis("Horizontal");
   }
 
-	private void FixedUpdate()
-	{
-		movement.SetVelocity(Vector3.left * horizontalInput, speed);
-	}
+  private void FixedUpdate()
+  {
+      movement.SetVelocity(Vector3.left * horizontalInput, speed);
+  }
 }
