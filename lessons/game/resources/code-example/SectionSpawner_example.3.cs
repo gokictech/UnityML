@@ -31,7 +31,7 @@ public class SectionSpawner : MonoBehaviour
     {
         if (Physics.CheckSphere(sectionObserver.position, 1f) == false)
         {
-            Vector3 position = sectionObserver.position;
+            Vector3 position = lastSection.position;
             GameObject section = SpawnSection(position + offset);
             lastSection = section.transform;
         }
