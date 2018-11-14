@@ -97,7 +97,10 @@ Set the values:
 ## Let's run our Game!
 ![alt text](resources/img/infinity-river-run-game-01.gif)  
 
-As you can see, we keep adding river sections to [add better explanation]
+Make sure to save your scripts and scene.  
+
+If we play our game, you can see that new river sections are added to the beginning of our river every time that the sectionObserver is not touching a river section.
+
 
 We don't really care about the river sections after they passed our boat.  
 In fact, if we let those sections stay there, with time, it will consume too much memory of our computer and our computer could eventually crash!

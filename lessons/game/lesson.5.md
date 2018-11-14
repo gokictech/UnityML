@@ -194,12 +194,11 @@ Any other errors? No? yeah!
 ...but our GameObjects are falling...  
 ...we don't want that...  
 This is happening because Unity is applying gravity to our GameObjects via the Rigidbody component.  
-Let's change that by setting the "UseGravity" in Rigidbody equal to false.  
+Let's change that by unchecking the "Use Gravity" in Rigidbody in the inspector:  
 
-Like this:  
 ![Create River Container](resources/img/rigidbody-usegravity-false.jpg)
 
-Set these settings for Water and RiverBank **GameObject**s
+Uncheck that for Water and RiverBank **GameObject**s
 
 **Let's run the game again!**  
 Is the river moving forward like this?  
