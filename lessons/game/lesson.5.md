@@ -35,7 +35,7 @@ For now, you can read the instructions and then look at the example code directl
 Instructions:  
 > We will need to add 3 public variables to the River script
 > 1. **container** of type **Transform**
-> 2. **riverSpeed** of tpye **Vector3**
+> 2. **riverSpeed** of type **Vector3**
 > 3. **addVelocityOnStart** of type **bool**
 > 
 > We will also need 3 methods
@@ -43,7 +43,7 @@ Instructions:
 >    - Takes one argument (rb) of type **Rigidbody**
 >    - The method returns **void**
 >    - The method is **private**
-> 2. "AddObject"
+> 2. "Add"
 >    - Takes one argument (obj) of type **GameObject**
 >    - The method returns **void**
 >    - The method is **public**
@@ -173,7 +173,8 @@ Let's add some code to give us a better message when this happens
 > In the **Add** method on the **River** script  
 > - After retrieving the Rigidbody component
 > - Check if objRb is null
-> - if it is null, print a message and return
+> - if it is null, print a message and return  
+
 Code Example : [Link](resources/code-example/River_example.6.cs)
 
 Let's run the game again and see if the error messages that it gives us  
