@@ -1,12 +1,20 @@
 # Create the Environemnt
 ## Create a new Scene
- - Put it under the Scenes folder
- - Name the new scene "Game"
- - Open the Game scene
- - Delete the SampleScene
-  
+Create a Scenes folder if you don't have Scenes folder (Assets > Scenes)
+- Right click the Assets Folder > Create > Folder
+- Name the folder "Scenes"
+
+If you already have a "Scene" folder, delete the "SampleScene" in it
+
+Create a new scene
+- Right click the Scenes folder > Create > Scene
+- Name it "Game"
+
+Open the Game scene
+- Double click the "Game" file under Assets > Scenes
+
 ![Create Scene](resources/img/create-scene-ss.jpg)
-![Scene Created](resources/img/blank-game-scene-ss.jpg)
+![Scene Created](resources/img/blank-game-scene-ss.jpg)  
 
 ## Add River Banks
 Drag RiverBank objects to Scene
