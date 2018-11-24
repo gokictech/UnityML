@@ -1,4 +1,4 @@
-# Do something when hitting the sides
+# Do something when hitting the sides (10 mins)
 
 ## Let's Code - Reset Boat
 Create a new script called **Boat**
