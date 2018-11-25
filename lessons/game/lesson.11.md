@@ -1,4 +1,4 @@
-# Obstacles!
+# Obstacles! (60 min)
 We need to add some difficulty to our game.  
 We will do that by adding two types of obstacles.  
 One that makes you lose (rocks) and another that gives you points (trash)!  
