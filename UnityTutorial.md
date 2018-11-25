@@ -1,4 +1,4 @@
-# Introduction to Unity3D
+# Introduction to Unity3D (30 min)
 
 This is a brief tutorial for the Unity3D game engine,
 it contains basic concept overviews for the essential components
