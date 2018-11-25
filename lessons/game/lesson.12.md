@@ -1,4 +1,4 @@
-# Show Score on the Screen
+# Show Score on the Screen (5 min)
 We have a game!
 
 Let's just a one more thing to make it easier to see our score!
