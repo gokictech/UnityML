@@ -209,7 +209,7 @@ If it is
   
 If it is not
  - don't worry - go back to the previous steps and see if you missed something. 
- - I am sure you can figure this out
+ - It is always okay and good to ask someone for help if you can't figure out what is wrong!
 
 ---
 [<< Previous Lesson](lesson.4.md) | [Next Lesson >>](lesson.6.md)
