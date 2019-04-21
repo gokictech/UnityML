@@ -16,6 +16,19 @@ Drag the Section GameObject to the Project Panel to make a prefab
   
 ![alt text](resources/img/create-section-prefabs.gif)  
 
+## One more thing!
+Sometimes, the rivers sections might collide into one another and that might cause the sections to move in unexpected way.  
+Let's tell Unity to not calculate object collisions for our rivers.  
+To do that we need to create a new Layer (we will calle it "River") and then we will tell Unity to not care about if a "River" is colliding with another "River".
+
+### Creating new Physics Layer
+![alt text](resources/img/create-river-layer.gif)  
+
+### Removing collision calculations between layers
+![alt text](resources/img/no-river-layer-collision.gif)  
+
+### Setting layer on RiverSection
+![alt text](resources/img/set-layer-to-river-sections.gif)  
 
 ## Let's Code! - RiverSpawner script
 Create a new script called **SectionSpawner**
